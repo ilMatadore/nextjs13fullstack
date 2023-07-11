@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@/context/ThemeContext'
 import Footer from '../components/footer/Footer'
-import Navbar from '../components/navbar/NavBar'
+import Navbar from '../components/navbar/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import AuthProvider from '@/components/AuthProvider/AuthProvider'
