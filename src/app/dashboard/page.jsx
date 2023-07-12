@@ -46,7 +46,7 @@ const Dashboard = () => {
   );
 
   if (session.status === "loading") {
-    return <p>Loading...</p>;
+    return <p className={styles.loading}>Loading...</p>;
   }
 
   if (session.status === "unauthenticated") {
